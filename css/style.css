@@ -76,7 +76,7 @@ body {
 }
 /*  */
 .projects {
-  padding: 170px 0 150px;
+  padding: 170px 0 145px;
 }
 .projects-tag {
   margin-bottom: 30px;
@@ -113,4 +113,20 @@ body {
 .projects_link-all:hover {
   background-color: var(--accent);
   color: #fff;
+}
+/*  */
+.services {
+  padding: 150px 0 90px;
+  background-color: #121212;
+}
+.services-tag {
+  color: #fff;
+  margin-bottom: 35px;
+}
+.services-img {
+  margin-bottom: 15px;
+}
+.services-h3 {
+  color: #fff;
+  margin-bottom: 60px;
 }
