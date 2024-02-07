@@ -124,6 +124,9 @@ body {
   padding: 150px 0;
   background-color: #121212;
 }
+.services_wrapper {
+  list-style: none;
+}
 .services-tag {
   color: #fff;
   margin-bottom: 35px;
