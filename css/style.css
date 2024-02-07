@@ -18,6 +18,11 @@ body {
   line-height: normal;
   letter-spacing: -1.35px;
 }
+.text-h3 {
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: -0.9px;
+}
 .text-p {
   color: rgb(255, 255, 255);
   font-size: 20px;
@@ -68,4 +73,44 @@ body {
   font-size: 20px;
   line-height: normal;
   letter-spacing: -0.6px;
+}
+/*  */
+.projects {
+  padding: 170px 0 150px;
+}
+.projects-tag {
+  margin-bottom: 30px;
+}
+.progects_img {
+  margin-bottom: 15px;
+}
+.projects-h3 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.progects_link {
+  display: block;
+  margin-bottom: 90px;
+  color: var(--accent, #ad1818);
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+.projects_link-all {
+  display: block;
+  margin: 0 auto;
+  padding: 56px 0;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--accent, #ad1818);
+  color: var(--accent, #ad1818);
+  text-align: center;
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: -0.9px;
+  transition: all 0.5s;
+}
+.projects_link-all:hover {
+  background-color: var(--accent);
+  color: #fff;
 }
