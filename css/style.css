@@ -37,7 +37,8 @@ body {
   text-transform: uppercase;
 }
 .container {
-  width: 1150px;
+  padding: 0 15px;
+  max-width: 1180px;
   margin: 0 auto;
 }
 /*  */
