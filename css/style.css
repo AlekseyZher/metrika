@@ -267,3 +267,127 @@ body {
   text-align: center;
   opacity: 0.5;
 }
+/*  */
+
+@media (max-width: 1199px) {
+  .interior {
+    padding-top: 60px;
+  }
+  .text-h1 {
+    max-width: 802px;
+    font-size: 50px;
+  }
+  .interior_item {
+    height: 400px;
+    margin-bottom: 120px;
+  }
+
+  .interior-p {
+    bottom: 30px;
+  }
+
+  .about_us-h2 {
+    max-width: 690px;
+    font-size: 35px;
+    letter-spacing: -1.05px;
+    margin-bottom: 50px;
+  }
+  .projects {
+    padding-top: 139px;
+  }
+
+  .progects_img {
+    height: 450px;
+  }
+
+  .projects-h3 {
+    font-size: 25px;
+    letter-spacing: -0.75px;
+    margin-bottom: 10px;
+  }
+  .progects_link {
+    margin-bottom: 80px;
+  }
+  .progects_wrapper:last-child {
+    margin-bottom: 90px;
+  }
+  .projects_link-all {
+    margin-top: 98px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    padding: 0 12px;
+  }
+  .text-tag {
+    font-size: 14px;
+    letter-spacing: -0.42px;
+    margin-bottom: 20px;
+  }
+  .interior {
+    padding-top: 108px;
+  }
+  br {
+    display: none;
+  }
+  .text-h1 {
+    max-width: 337px;
+    font-size: 30px;
+    line-height: 31.621px; /* 105.402% */
+    letter-spacing: -0.9px;
+    margin-bottom: 25px;
+  }
+  .interior_item {
+    width: 100%;
+    height: 304px;
+    margin-bottom: 80px;
+  }
+
+  .interior-p {
+    max-width: 312px;
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    bottom: 15px;
+    left: 15px;
+  }
+  .about_us-h2 {
+    max-width: 348px;
+    font-size: 22px;
+    letter-spacing: -0.66px;
+    margin-bottom: 48px;
+  }
+  .about_us-btn {
+    padding: 15px 29px;
+    font-size: 16px;
+    letter-spacing: -0.48px;
+  }
+  .projects {
+    padding-top: 95px;
+  }
+
+  .progects_img {
+    height: 250px;
+    margin-bottom: 20px;
+  }
+
+  .projects-h3 {
+    font-size: 18px;
+    letter-spacing: -0.54px;
+    margin-bottom: 11px;
+  }
+  .progects_link {
+    font-size: 16px;
+    letter-spacing: -0.48px;
+    margin-bottom: 49px;
+  }
+  .progects_wrapper:last-child {
+    margin-bottom: 60px;
+  }
+  .projects_link-all {
+    padding: 37px 0;
+    font-size: 22px;
+    letter-spacing: -0.66px;
+    margin-top: 98px;
+  }
+}
