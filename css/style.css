@@ -17,9 +17,10 @@ body {
   margin-bottom: 30px;
 }
 .text-h2 {
-  font-size: 45px;
+  font-size: 18px;
   line-height: normal;
-  letter-spacing: -1.35px;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
 }
 .text-h3 {
   font-size: 30px;
@@ -33,27 +34,19 @@ body {
   letter-spacing: -0.6px;
   text-align: left;
 }
-.text-tag {
-  font-size: 18px;
-  line-height: normal;
-  letter-spacing: -0.54px;
-  text-transform: uppercase;
-}
 .container {
   padding: 0 15px;
   max-width: 1180px;
   margin: 0 auto;
 }
 /*  */
+.interior {
+  margin-bottom: 150px;
+}
 .interior_item {
   position: relative;
-  margin-bottom: 150px;
-  /* padding: 379px 680px 40px 40px; */
   height: 500px;
   background: url(../img/bg/bg_1.jpeg) center center / cover no-repeat;
-  /* background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat; */
 }
 .interior-p {
   position: absolute;
@@ -62,15 +55,21 @@ body {
   max-width: 435px;
 }
 /*  */
-.about_us-tag {
+.about_us {
+  margin-bottom: 150px;
+}
+.about_us-h2 {
   margin-bottom: 30px;
 }
-
-.about_us-h2 {
+.about_us-p {
+  font-size: 45px;
+  line-height: normal;
+  letter-spacing: -1.35px;
   max-width: 1048px;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 }
 .about_us-btn {
+  display: inline-block;
   padding: 20px 40px;
   background-color: var(--accent);
   border-radius: 5px;
@@ -81,9 +80,9 @@ body {
 }
 /*  */
 .projects {
-  padding: 170px 0 145px;
+  margin-bottom: 145px;
 }
-.projects-tag {
+.projects-h2 {
   margin-bottom: 30px;
 }
 .progects_img {
@@ -95,7 +94,7 @@ body {
   margin-bottom: 15px;
 }
 .progects_link {
-  display: block;
+  display: inline-block;
   margin-bottom: 90px;
   color: var(--accent, #ad1818);
   font-size: 20px;
@@ -103,7 +102,7 @@ body {
   letter-spacing: -0.6px;
 }
 .projects_link-all {
-  display: block;
+  display: inline-block;
   margin: 0 auto;
   padding: 56px 0;
   width: 100%;
@@ -132,7 +131,7 @@ body {
 .services_wrapper:last-child {
   margin-bottom: 0;
 }
-.services-tag {
+.services-h2 {
   color: #fff;
   margin-bottom: 35px;
 }
@@ -181,6 +180,7 @@ body {
 .menu_item :last-child {
   margin-right: 0;
 }
+
 /*  */
 .example {
   position: relative;
@@ -197,10 +197,10 @@ body {
 .contacts {
   padding: 150px 0 121px;
 }
-.contacts-tag {
+.contacts-h2 {
   margin-bottom: 34px;
 }
-.contacts-tag::before {
+.contacts-h2::before {
   content: "";
   margin: 0 0 12px -5px;
   display: block;
@@ -268,7 +268,6 @@ body {
   opacity: 0.5;
 }
 /*  */
-
 @media (max-width: 1199px) {
   .interior {
     padding-top: 60px;
@@ -319,7 +318,7 @@ body {
   .container {
     padding: 0 12px;
   }
-  .text-tag {
+  .text-h2 {
     font-size: 14px;
     letter-spacing: -0.42px;
     margin-bottom: 20px;
