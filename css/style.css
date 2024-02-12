@@ -271,6 +271,7 @@ body {
 @media (max-width: 1199px) {
   .interior {
     padding-top: 60px;
+    margin-bottom: 120px;
   }
   .text-h1 {
     max-width: 802px;
@@ -278,21 +279,22 @@ body {
   }
   .interior_item {
     height: 400px;
-    margin-bottom: 120px;
   }
 
   .interior-p {
     bottom: 30px;
   }
-
-  .about_us-h2 {
+  .about_us {
+    margin-bottom: 118px;
+  }
+  .about_us-p {
     max-width: 690px;
     font-size: 35px;
     letter-spacing: -1.05px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   .projects {
-    padding-top: 139px;
+    margin-bottom: 99px;
   }
 
   .progects_img {
@@ -308,10 +310,7 @@ body {
     margin-bottom: 80px;
   }
   .progects_wrapper:last-child {
-    margin-bottom: 90px;
-  }
-  .projects_link-all {
-    margin-top: 98px;
+    margin-bottom: 70px;
   }
 }
 @media (max-width: 767px) {
@@ -336,10 +335,12 @@ body {
     letter-spacing: -0.9px;
     margin-bottom: 25px;
   }
+  .interior {
+    margin-bottom: 80px;
+  }
   .interior_item {
     width: 100%;
     height: 304px;
-    margin-bottom: 80px;
   }
 
   .interior-p {
@@ -350,26 +351,24 @@ body {
     bottom: 15px;
     left: 15px;
   }
-  .about_us-h2 {
+  .about_us {
+    margin-bottom: 80px;
+  }
+  .about_us-p {
     max-width: 348px;
     font-size: 22px;
     letter-spacing: -0.66px;
-    margin-bottom: 48px;
+    margin-bottom: 32px;
   }
   .about_us-btn {
     padding: 15px 29px;
     font-size: 16px;
     letter-spacing: -0.48px;
   }
-  .projects {
-    padding-top: 95px;
-  }
-
   .progects_img {
     height: 250px;
     margin-bottom: 20px;
   }
-
   .projects-h3 {
     font-size: 18px;
     letter-spacing: -0.54px;
@@ -387,6 +386,5 @@ body {
     padding: 37px 0;
     font-size: 22px;
     letter-spacing: -0.66px;
-    margin-top: 98px;
   }
 }
