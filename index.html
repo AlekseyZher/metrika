@@ -17,7 +17,7 @@
     <header>
       <nav class="menu">
         <div class="container">
-          <div class="nav_wrapper">
+          <div class="nav__wrapper">
             <div class="logo_metrika">
               <a href="#" class="logo_link"
                 ><img
@@ -26,18 +26,18 @@
                   class="logo-img"
               /></a>
             </div>
-            <div class="menu_wrapper">
-              <ul class="menu_item">
-                <li class="menu_link">
+            <div class="menu__wrapper">
+              <ul class="menu__item">
+                <li class="menu__link">
                   <a href="#about" class="text-h2 menu_inner">о нас</a>
                 </li>
-                <li class="menu_link">
+                <li class="menu__link">
                   <a href="#project" class="text-h2 menu_inner">проекты</a>
                 </li>
-                <li class="menu_link">
+                <li class="menu__link">
                   <a href="#servic" class="text-h2 menu_inner">услуги</a>
                 </li>
-                <li class="menu_link">
+                <li class="menu__link">
                   <a href="#" class="text-h2 menu_inner">контакты</a>
                 </li>
               </ul>
@@ -76,85 +76,69 @@
       <section id="project" class="projects">
         <div class="container">
           <h2 class="text-h2 projects-h2">проекты</h2>
-          <div class="projects_wrapper">
+          <div class="projects__wrapper">
             <img
               src="img/images/Rectangle 6.jpg"
               alt="жк правобережный"
-              class="progects_img"
+              class="progects__img"
             />
             <h3 class="text-h3 projects-h3">
               ЖК Правобережный — 112 м² — 2023
             </h3>
-            <a href="#" class="progects_link">Подробнее →</a>
+            <a href="#" class="progects__link">Подробнее →</a>
           </div>
-          <div class="projects_wrapper">
+          <div class="projects__wrapper">
             <img
               src="img/images/Rectangle 7.jpg"
               alt="жк правобережный"
-              class="progects_img"
+              class="progects__img"
             />
             <h3 class="text-h3 projects-h3">
               ЖК Норвежский парк — 75 М² — 2023
             </h3>
-            <a href="#" class="progects_link">Подробнее →</a>
+            <a href="#" class="progects__link">Подробнее →</a>
           </div>
-          <div class="projects_wrapper">
+          <div class="projects__wrapper">
             <img
               src="img/images/Rectangle 8.jpg"
               alt="жк правобережный"
-              class="progects_img"
+              class="progects__img"
             />
             <h3 class="text-h3 projects-h3">
               ЖК Сосновские озера — 94 М² — 2022
             </h3>
-            <a href="#" class="progects_link">Подробнее →</a>
+            <a href="#" class="progects__link">Подробнее →</a>
           </div>
-          <a href="#" class="projects_link-all">Смотреть все проекты</a>
+          <a href="#" class="projects__link-all">Смотреть все проекты</a>
         </div>
       </section>
       <section id="servic" class="services">
         <div class="container">
-          <ul class="text-h2 services-h2">
-            услуги
+          <h2 class="text-h2 services-h2">услуги</h2>
+          <ul class="services__wrapper">
+            <li class="services__item">
+              <div class="services__img"></div>
+              <h3 class="text-h3 services-h3">
+                Планировочное решение — от 2500₽/м²
+              </h3>
+            </li>
+            <li class="services__item">
+              <div class="services__img"></div>
+              <h3 class="text-h3 services-h3">Дизайн-проект — от 3000₽/м²</h3>
+            </li>
+            <li class="services__item">
+              <div class="services__img"></div>
+              <h3 class="text-h3 services-h3">
+                Авторский надзор — от 30 000₽ в месяц
+              </h3>
+            </li>
+            <li class="services__item">
+              <div class="services__img"></div>
+              <h3 class="text-h3 services-h3">
+                Комплектация — 5% от стоимости спецификации
+              </h3>
+            </li>
           </ul>
-          <li class="services_wrapper">
-            <img
-              src="img/images/Rectangle 2.jpg"
-              alt="Планировочное решение"
-              class="services-img"
-            />
-            <h3 class="text-h3 services-h3">
-              Планировочное решение — от 2500₽/м²
-            </h3>
-          </li>
-          <li class="services_wrapper">
-            <img
-              src="img/images/Rectangle 3.jpg"
-              alt="Дизайн-проект"
-              class="services-img"
-            />
-            <h3 class="text-h3 services-h3">Дизайн-проект — от 3000₽/м²</h3>
-          </li>
-          <li class="services_wrapper">
-            <img
-              src="img/images/Rectangle 4.jpg"
-              alt="Авторский надзор"
-              class="services-img"
-            />
-            <h3 class="text-h3 services-h3">
-              Авторский надзор — от 30 000₽ в месяц
-            </h3>
-          </li>
-          <li class="services_wrapper">
-            <img
-              src="img/images/Rectangle 5.jpg"
-              alt="Комплектация"
-              class="services-img"
-            />
-            <h3 class="text-h3 services-h3">
-              Комплектация — 5% от стоимости спецификации
-            </h3>
-          </li>
         </div>
       </section>
       <section class="example">
@@ -183,27 +167,29 @@
       </section>
     </main>
     <footer>
-      <div class="footer_wrapper">
+      <div class="footer__wrapper">
         <div class="container">
-          <div class="menu_wrapper menu_footer">
-            <ul class="menu_item">
-              <li class="menu_link">
-                <a href="#about" class="text-h2 menu_inner link_footer"
+          <div class="menu__wrapper menu__footer">
+            <ul class="menu__item">
+              <li class="menu__link">
+                <a href="#about" class="text-h2 menu__inner link__footer"
                   >о нас</a
                 >
               </li>
-              <li class="menu_link">
-                <a href="#project" class="text-h2 menu_inner link_footer"
+              <li class="menu__link">
+                <a href="#project" class="text-h2 menu__inner link__footer"
                   >проекты</a
                 >
               </li>
-              <li class="menu_link">
-                <a href="#servic" class="text-h2 menu_inner link_footer"
+              <li class="menu__link">
+                <a href="#servic" class="text-h2 menu__inner link__footer"
                   >услуги</a
                 >
               </li>
-              <li class="menu_link">
-                <a href="#" class="text-h2 menu_inner link_footer">контакты</a>
+              <li class="menu__link">
+                <a href="#" class="text-h2 menu__inner link__footer"
+                  >контакты</a
+                >
               </li>
             </ul>
           </div>

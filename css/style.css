@@ -85,7 +85,7 @@ body {
 .projects-h2 {
   margin-bottom: 30px;
 }
-.progects_img {
+.progects__img {
   max-width: 100%;
   margin-bottom: 15px;
 }
@@ -93,7 +93,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 15px;
 }
-.progects_link {
+.progects__link {
   display: inline-block;
   margin-bottom: 90px;
   color: var(--accent, #ad1818);
@@ -101,7 +101,7 @@ body {
   line-height: normal;
   letter-spacing: -0.6px;
 }
-.projects_link-all {
+.projects__link-all {
   display: inline-block;
   margin: 0 auto;
   padding: 56px 0;
@@ -115,7 +115,7 @@ body {
   letter-spacing: -0.9px;
   transition: all 0.3s;
 }
-.projects_link-all:hover {
+.projects__link-all:hover {
   background-color: var(--accent);
   color: #fff;
 }
@@ -124,18 +124,27 @@ body {
   padding: 150px 0;
   background-color: #121212;
 }
-.services_wrapper {
+.services__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.services__item {
+  width: calc(50% - 5px);
   margin-bottom: 60px;
   list-style: none;
 }
-.services_wrapper:last-child {
+.services__item:last-child {
   margin-bottom: 0;
 }
 .services-h2 {
   color: #fff;
   margin-bottom: 35px;
 }
-.services-img {
+.services__img {
+  background: url(../img/images/Rectangle\ 4.jpg) center center / cover
+    no-repeat;
+  height: 388px;
   max-width: 100%;
   margin-bottom: 15px;
 }
@@ -146,21 +155,21 @@ body {
 .menu {
   padding: 31px 0 68px;
 }
-.nav_wrapper {
+.nav__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.menu_item {
+.menu__item {
   display: flex;
   align-items: center;
 }
-.menu_link {
+.menu__link {
   margin-right: 60px;
 }
 /* добавление нижнего подчеркивания при навидении */
-.menu_link:after {
+.menu__link:after {
   content: "";
   display: block;
   width: 100%;
@@ -170,14 +179,14 @@ body {
   visibility: hidden;
   margin-top: 3px;
 }
-.menu_link:hover::after {
+.menu__link:hover::after {
   visibility: visible;
 }
-.menu_link:hover {
+.menu__link:hover {
   visibility: visible;
   opacity: 0.5;
 }
-.menu_item :last-child {
+.menu__item :last-child {
   margin-right: 0;
 }
 
@@ -250,15 +259,15 @@ body {
   visibility: visible;
 }
 /*  */
-.footer_wrapper {
+.footer__wrapper {
   background-color: #121212;
   padding: 60px 0 30px;
 }
-.link_footer {
+.link__footer {
   color: #fff;
 }
 
-.menu_footer {
+.menu__footer {
   width: 470px;
   margin: 0 auto;
   margin-bottom: 80px;
@@ -297,7 +306,7 @@ body {
     margin-bottom: 99px;
   }
 
-  .progects_img {
+  .progects__img {
     height: 450px;
   }
 
@@ -306,10 +315,10 @@ body {
     letter-spacing: -0.75px;
     margin-bottom: 10px;
   }
-  .progects_link {
+  .progects__link {
     margin-bottom: 80px;
   }
-  .progects_wrapper:last-child {
+  .progects__wrapper:last-child {
     margin-bottom: 70px;
   }
 }
@@ -365,7 +374,7 @@ body {
     font-size: 16px;
     letter-spacing: -0.48px;
   }
-  .progects_img {
+  .progects__img {
     height: 250px;
     margin-bottom: 20px;
   }
@@ -374,15 +383,15 @@ body {
     letter-spacing: -0.54px;
     margin-bottom: 11px;
   }
-  .progects_link {
+  .progects__link {
     font-size: 16px;
     letter-spacing: -0.48px;
     margin-bottom: 49px;
   }
-  .progects_wrapper:last-child {
+  .progects__wrapper:last-child {
     margin-bottom: 60px;
   }
-  .projects_link-all {
+  .projects__link-all {
     padding: 37px 0;
     font-size: 22px;
     letter-spacing: -0.66px;
