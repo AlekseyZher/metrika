@@ -11,11 +11,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
     <title>Метрика</title>
   </head>
   <body>
     <header>
-      <nav class="menu">
+      <!-- <nav class="menu">
         <div class="container">
           <div class="nav__wrapper">
             <div class="logo_metrika">
@@ -44,7 +45,7 @@
             </div>
           </div>
         </div>
-      </nav>
+      </nav> -->
     </header>
     <main>
       <section class="interior">
@@ -76,40 +77,42 @@
       <section id="project" class="projects">
         <div class="container">
           <h2 class="text-h2 projects-h2">проекты</h2>
-          <div class="projects__wrapper">
-            <img
-              src="img/images/Rectangle 6.jpg"
-              alt="жк правобережный"
-              class="progects__img"
-            />
-            <h3 class="text-h3 projects-h3">
-              ЖК Правобережный — 112 м² — 2023
-            </h3>
-            <a href="#" class="progects__link">Подробнее →</a>
+          <div class="projects-inner">
+            <div class="projects__wrapper">
+              <img
+                src="img/images/Rectangle 6.jpg"
+                alt="жк правобережный"
+                class="projects__img"
+              />
+              <h3 class="text-h3 projects-h3">
+                ЖК Правобережный — 112 м² — 2023
+              </h3>
+              <a href="#" class="projects__link">Подробнее →</a>
+            </div>
+            <div class="projects__wrapper">
+              <img
+                src="img/images/Rectangle 7.jpg"
+                alt="жк правобережный"
+                class="projects__img"
+              />
+              <h3 class="text-h3 projects-h3">
+                ЖК Норвежский парк — 75 М² — 2023
+              </h3>
+              <a href="#" class="projects__link">Подробнее →</a>
+            </div>
+            <div class="projects__wrapper">
+              <img
+                src="img/images/Rectangle 8.jpg"
+                alt="жк правобережный"
+                class="projects__img"
+              />
+              <h3 class="text-h3 projects-h3">
+                ЖК Сосновские озера — 94 М² — 2022
+              </h3>
+              <a href="#" class="projects__link">Подробнее →</a>
+            </div>
           </div>
-          <div class="projects__wrapper">
-            <img
-              src="img/images/Rectangle 7.jpg"
-              alt="жк правобережный"
-              class="progects__img"
-            />
-            <h3 class="text-h3 projects-h3">
-              ЖК Норвежский парк — 75 М² — 2023
-            </h3>
-            <a href="#" class="progects__link">Подробнее →</a>
-          </div>
-          <div class="projects__wrapper">
-            <img
-              src="img/images/Rectangle 8.jpg"
-              alt="жк правобережный"
-              class="progects__img"
-            />
-            <h3 class="text-h3 projects-h3">
-              ЖК Сосновские озера — 94 М² — 2022
-            </h3>
-            <a href="#" class="progects__link">Подробнее →</a>
-          </div>
-          <a href="#" class="projects__link-all">Смотреть все проекты</a>
+          <a href="#" class="link-all">Смотреть все проекты</a>
         </div>
       </section>
       <section id="servic" class="services">
@@ -117,28 +120,81 @@
           <h2 class="text-h2 services-h2">услуги</h2>
           <ul class="services__wrapper">
             <li class="services__item">
-              <div class="services__img"></div>
-              <h3 class="text-h3 services-h3">
-                Планировочное решение — от 2500₽/м²
-              </h3>
+              <div class="services__img1">
+                <h2 class="text-h2 services-h2-inner">от 2500₽/м²</h2>
+              </div>
+              <h3 class="text-h3 services-h3">Планировочное решение</h3>
             </li>
             <li class="services__item">
-              <div class="services__img"></div>
-              <h3 class="text-h3 services-h3">Дизайн-проект — от 3000₽/м²</h3>
+              <div class="services__img2">
+                <h2 class="text-h2 services-h2-inner">от 3000₽/м²</h2>
+              </div>
+              <h3 class="text-h3 services-h3">Дизайн-проект</h3>
             </li>
             <li class="services__item">
-              <div class="services__img"></div>
-              <h3 class="text-h3 services-h3">
-                Авторский надзор — от 30 000₽ в месяц
-              </h3>
+              <div class="services__img3">
+                <h2 class="text-h2 services-h2-inner">от 30 000₽/мес</h2>
+              </div>
+              <h3 class="text-h3 services-h3">Авторский надзор</h3>
             </li>
             <li class="services__item">
-              <div class="services__img"></div>
-              <h3 class="text-h3 services-h3">
-                Комплектация — 5% от стоимости спецификации
-              </h3>
+              <div class="services__img4">
+                <h2 class="text-h2 services-h2-inner">5% от стоимости</h2>
+              </div>
+              <h3 class="text-h3 services-h3">Комплектация</h3>
             </li>
           </ul>
+          <a href="#" class="link-all services__link">Заказать услугу</a>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <h2 class="text-h2 reviews-h2">отзывы</h2>
+          <div class="reviews__row">
+            <div class="reviews__col">
+              <h2 class="reviews-h2-name">Ксения, проект 65 кв.м.</h2>
+              <p class="reviews-p">
+                Хочу искренне поблагодарить Вас за работу, проделанную на
+                высоком уровне! Нам с мужем было очень приятно с Вами работать!
+                Спасибо за Ваше умение правильно слышать пожелания своих
+                клиентов и выполнять работу, которая превосходит все ожидания!
+                Мы даже не надеялись, что на 34 кв.м. кто-то сможет нам грамотно
+                разместить все, что мы хотим и даже больше!<br /><br />
+                Вам удалось это просто превосходно! Нам лишь осталось воплотить
+                красоту, которую Вы нам создали в жизнь и поделиться с Вами
+                результатом!
+              </p>
+            </div>
+            <div class="reviews__col">
+              <h2 class="reviews-h2-name">Регина, проект 89 кв.м.</h2>
+              <p class="reviews-p">
+                Спасибо большое за такой классный проект! Все стильно, круто,
+                продумано! Очень приятно было с вами работать! Спасибо, что
+                терпели наши «хочу это, хочу то» в поисках идеального для нас
+                ремонта. Здорово, что мы нашли такого основательного,
+                ответственного и внимательного к деталям дизайнера!<br /><br />
+                Хочется скорее реализовать проект и наслаждаться современной,
+                функциональной и красивой квартирой! Будем рекомендовать Вас
+                всем друзьям и знакомым!
+              </p>
+            </div>
+            <div class="reviews__col">
+              <h2 class="reviews-h2-name">Яна, проект 120 кв.м.</h2>
+              <p class="reviews-p">
+                Хотелось бы сказать большое спасибо за проделанную работу! В
+                задачу Марины входила разработка дизайн-проекта в минимальные
+                сроки, и мне, конечно, не хотелось при этом потерять качество
+                выполнения работы. Но волнения были напрасны: все вопросы
+                решались оперативно, всегда предлагалось несколько вариантов
+                решения, а также предоставлялись комментарии, какой способ
+                решения будет более подходящим.<br /><br />
+                В итоге проект был сдан в оговоренный срок, и мне просто не
+                терпится приступить к его реализации! Проект получился очень
+                стильным и современным! Буду рекомендовать Вас тем, кому еще
+                предстоит это непростое дело - ремонт!
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <section class="example">
@@ -166,7 +222,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <!-- <footer>
       <div class="footer__wrapper">
         <div class="container">
           <div class="menu__wrapper menu__footer">
@@ -196,6 +252,6 @@
           <p class="text-p footer-p">студия дизайна интерьера Метрика — 2023</p>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
