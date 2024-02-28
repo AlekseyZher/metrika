@@ -1,4 +1,12 @@
 @media (max-width: 1199px) {
+  .menu__wrapper {
+    display: none;
+  }
+  .burger-btn {
+    display: block;
+    background-color: #fff;
+    padding: 20px;
+  }
   .interior {
     margin-bottom: 120px;
   }
@@ -57,7 +65,7 @@
     margin-top: 79px;
   }
   .reviews {
-    padding: 118px 0 113px;
+    padding: 118px 0 120px;
   }
 
   .reviews-h2 {
@@ -71,7 +79,7 @@
   }
   .reviews__col {
     max-width: 460px;
-    margin-bottom: 80px;
+    margin-bottom: 85px;
   }
   .reviews-h2-name {
     margin-bottom: 32px;
@@ -81,6 +89,39 @@
   .reviews-p {
     font-size: 20px;
     line-height: 27px;
+  }
+  .gallery-section {
+    height: 536px;
+  }
+  .gallery__title {
+    font-size: 20px;
+    line-height: 27px;
+    top: 80px;
+    left: 50px;
+  }
+  .gallery__slides {
+    height: 536px;
+  }
+  .gallery__slide {
+    height: 536px;
+  }
+  .slide-p {
+    max-width: 377px;
+    font-size: 25px;
+    line-height: 34px;
+    left: 50px;
+    bottom: 80px;
+  }
+  .gallery__controls {
+    top: 345px;
+    left: 45px;
+  }
+  .contacts {
+    padding: 120px 0 86px;
+  }
+  .link_phone,
+  .link_mail {
+    font-size: 47px;
   }
 }
 @media (max-width: 767px) {
@@ -92,9 +133,6 @@
     letter-spacing: -0.42px;
     margin-bottom: 20px;
   }
-  .interior {
-    padding-top: 108px;
-  }
   .text-h1 br {
     display: none;
   }
@@ -104,6 +142,9 @@
     line-height: 31.621px;
     letter-spacing: -0.9px;
     margin-bottom: 25px;
+  }
+  .menu {
+    padding-bottom: 60px;
   }
   .interior {
     margin-bottom: 80px;
@@ -163,7 +204,7 @@
     letter-spacing: -0.66px;
   }
   .services {
-    padding: 80px 0 71px;
+    padding: 80px 0 77px;
   }
   .services__wrapper {
     row-gap: 57px;
@@ -187,10 +228,11 @@
     letter-spacing: -0.54px;
   }
   .services__link {
-    margin-top: 63px;
+    line-height: 30px;
+    margin-top: 57px;
   }
   .reviews {
-    padding: 80px 0;
+    padding: 80px 0 85px;
   }
 
   .reviews-h2 {
@@ -220,5 +262,76 @@
     font-size: 16px;
     line-height: 22px;
     letter-spacing: -3%;
+  }
+  .gallery-section {
+    height: 408px;
+  }
+  .gallery__title {
+    font-size: 14px;
+    line-height: 19px;
+    top: 61px;
+    left: 12px;
+  }
+  .gallery__slides {
+    height: 408px;
+  }
+  .gallery__slide {
+    height: 408px;
+  }
+  .slide-p {
+    max-width: 286px;
+    font-size: 19px;
+    line-height: 26px;
+    left: 13px;
+    bottom: 60px;
+  }
+  .gallery__controls {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 183px;
+    left: 0px;
+  }
+  .box_contacts {
+    flex-wrap: wrap;
+  }
+  .contacts {
+    padding: 80px 0 47px;
+  }
+  .link_phone::before {
+    margin: 0 0 20px -5px;
+    width: 10px;
+    height: 16px;
+  }
+  .link_mail::before {
+    margin: 0 0 20px -5px;
+    width: 15px;
+    height: 12px;
+  }
+  .link_phone {
+    margin: 0;
+    margin-bottom: 18px;
+  }
+  .link_phone,
+  .link_mail {
+    font-size: 35px;
+    line-height: 45.62px;
+  }
+  .footer__wrapper {
+    padding: 30px 0 30px;
+  }
+  .link__footer {
+    font-size: 12px;
+  }
+  .menu__footer {
+    width: 281px;
+    margin-bottom: 38px;
+  }
+  .menu__link-footer {
+    margin-right: 30px;
+  }
+  .footer-p {
+    font-size: 13px;
+    line-height: 18px;
   }
 }

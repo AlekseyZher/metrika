@@ -1,0 +1,14 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1895_92">
+			<rect id="material-symbols:mail-outline-rounded" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="material-symbols:mail-outline-rounded" width="24.000000" height="24.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip1895_92)">
+		<path id="Vector" d="M4 20C3.44995 20 2.97925 19.8044 2.58789 19.4131C2.19604 19.021 2 18.55 2 18L2 6C2 5.44995 2.19604 4.97925 2.58789 4.58789C2.97925 4.19604 3.44995 4 4 4L20 4C20.55 4 21.021 4.19604 21.4131 4.58789C21.8044 4.97925 22 5.44995 22 6L22 18C22 18.55 21.8044 19.021 21.4131 19.4131C21.021 19.8044 20.55 20 20 20L4 20ZM20 8L12.5249 12.675C12.4417 12.7251 12.354 12.7625 12.262 12.7871C12.1707 12.8123 12.0833 12.825 12 12.825C11.9167 12.825 11.8293 12.8123 11.738 12.7871C11.646 12.7625 11.5583 12.7251 11.4751 12.675L4 8L4 18L20 18L20 8ZM12 11L20 6L4 6L12 11ZM4 8.25L4 6.7749L4 6.80005L4 6.78711L4 8.25Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
