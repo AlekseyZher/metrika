@@ -95,7 +95,7 @@ body::-webkit-scrollbar {
   right: 15px;
   width: 20px;
   height: 20px;
-  background-image: url(../img/images/burger-close.svg);
+  background-image: url(../img/images/btn-close.svg);
   background-size: contain;
   background-position: 50%;
   background-repeat: no-repeat;
