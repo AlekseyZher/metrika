@@ -49,7 +49,7 @@
       </nav>
     </header>
     <div class="js-burger burger">
-      <div class="js-burger__content burger__content">
+      <div class="burger__content">
         <div class="logo_burger">
           <a href="#" class="logo_link"
             ><img
@@ -60,16 +60,16 @@
         </div>
         <div class="menu__burger">
           <ul class="menu__burger-item">
-            <li class="burger__link">
+            <li class="burger__link js-burger__content">
               <a href="#about" class="text-h2 burger_inner">о нас</a>
             </li>
-            <li class="burger__link">
+            <li class="burger__link js-burger__content">
               <a href="#project" class="text-h2 burger_inner">проекты</a>
             </li>
-            <li class="burger__link">
+            <li class="burger__link js-burger__content">
               <a href="#servic" class="text-h2 burger_inner">услуги</a>
             </li>
-            <li class="burger__link">
+            <li class="burger__link js-burger__content">
               <a href="#contact" class="text-h2 burger_inner">контакты</a>
             </li>
           </ul>
@@ -96,7 +96,7 @@
             Современные и стильные<br />
             интерьеры для комфортной жизни
           </h1>
-          <div class="interior_item">
+          <div class="interior__item">
             <p class="text-p interior-p">
               Мы - команда квалифицированных дизайнеров и архитекторов,
               занимающихся разработкой и реализацией дизайн-проектов
@@ -104,16 +104,16 @@
           </div>
         </div>
       </section>
-      <section id="about" class="about_us">
+      <section id="about" class="about__us">
         <div class="container">
-          <h2 class="text-h2 about_us-h2">о нас</h2>
-          <p class="about_us-p">
+          <h2 class="text-h2 about__us-h2">о нас</h2>
+          <p class="about__us-p">
             Студия основана в 2011 году. Полностью отдаемся проектированию и
             реализации интерьеров. К нам обращаются за уютом, индивидуальными
             решениями и практичностью. Находим конструктивные решения для
             каждого интерьера, вплоть до каждой детали — нацелены на результат.
           </p>
-          <a href="#" class="about_us-btn">Посмотреть услуги</a>
+          <a href="#" class="about__us-btn">Посмотреть услуги</a>
         </div>
       </section>
       <section id="project" class="projects">
@@ -186,34 +186,52 @@
               <h3 class="text-h3 services-h3">Комплектация</h3>
             </li>
           </ul>
+          <form
+            action="https://jsonplaceholder.typicode.com/posts"
+            method="post"
+          >
+            <div class="js-popup popup">
+              <div class="js-popup__content popup__content">
+                <p class="popup__title">Заказать услугу</p>
+                <p class="popup__subtitle">
+                  Заполните форму, мы свяжемся с вами в течение суток
+                </p>
+                <div class="js-popup__close-btn popup__close-btn">
+                  <img src="img/images/btn-close.svg" alt="Закрыть" />
+                </div>
+                <div class="popup__form">
+                  <input
+                    type="text"
+                    class="popup__form-inner"
+                    placeholder="Имя"
+                    name="name"
+                    id="name"
+                    required
+                  />
+                  <input
+                    type="email"
+                    class="popup__form-inner"
+                    placeholder="Электронная почта"
+                    name="email"
+                    id="email"
+                    required
+                  />
+                  <input
+                    type="tel"
+                    class="popup__form-inner"
+                    placeholder="Номер телефона"
+                    name="tel"
+                    id="tel"
+                    required
+                  />
+                </div>
+                <button class="btn-form" type="submit">Отправить</button>
+              </div>
+            </div>
+          </form>
           <button class="js-btn link-all services__link">
             Заказать услугу
           </button>
-        </div>
-        <div class="js-popup popup">
-          <div class="js-popup__content popup__content">
-            <p class="popup__title">Заказать услугу</p>
-            <p class="popup__subtitle">
-              Заполните форму, мы свяжемся с вами в течение суток
-            </p>
-            <div class="js-popup__close-btn popup__close-btn">
-              <img src="img/images/btn-close.svg" alt="Закрыть" />
-            </div>
-            <div class="popup__form">
-              <input type="text" class="popup__form-inner" placeholder="Имя" />
-              <input
-                type="text"
-                class="popup__form-inner"
-                placeholder="Электронная почта"
-              />
-              <input
-                type="text"
-                class="popup__form-inner"
-                placeholder="Номер телефона"
-              />
-            </div>
-            <button class="btn-form">Отправить</button>
-          </div>
         </div>
       </section>
       <section class="reviews">

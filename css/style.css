@@ -6,7 +6,7 @@ body {
   color: #121212;
   font-weight: 400;
 }
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 0;
 }
 :root {
@@ -93,8 +93,7 @@ body::-webkit-scrollbar {
 .burger-btn_open {
   position: fixed;
   right: 15px;
-  width: 20px;
-  height: 20px;
+  width: 80%;
   background-image: url(../img/images/btn-close.svg);
   background-size: contain;
   background-position: 50%;
@@ -159,7 +158,7 @@ body::-webkit-scrollbar {
 .interior {
   margin-bottom: 150px;
 }
-.interior_item {
+.interior__item {
   position: relative;
   height: 500px;
   background: url(../img/bg/bg_1.jpeg) center center / cover no-repeat;
@@ -171,20 +170,20 @@ body::-webkit-scrollbar {
   max-width: 435px;
 }
 /*  */
-.about_us {
+.about__us {
   margin-bottom: 150px;
 }
-.about_us-h2 {
+.about__us-h2 {
   margin-bottom: 30px;
 }
-.about_us-p {
+.about__us-p {
   font-size: 45px;
   line-height: normal;
   letter-spacing: -1.35px;
   max-width: 1048px;
   margin-bottom: 25px;
 }
-.about_us-btn {
+.about__us-btn {
   display: inline-block;
   padding: 20px 40px;
   background-color: var(--accent);
@@ -331,9 +330,6 @@ body::-webkit-scrollbar {
   background-color: #fff;
   border-radius: 10px;
   padding: 94px 55px 86px 75px;
-}
-.popup__content::-webkit-scrollbar {
-  width: 0;
 }
 .popup__title {
   color: rgb(0, 0, 0);
